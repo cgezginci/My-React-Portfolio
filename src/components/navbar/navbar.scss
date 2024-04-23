@@ -1,0 +1,44 @@
+.navbar{
+    height: 100px;
+
+    .wrapper{
+        max-width: 1366px;
+        margin : auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        margin-left: 150px;
+
+        span{
+           font-weight: bold;
+        }
+
+        .social{
+            display: flex;
+            gap: 20px;
+            margin-right: 50px;
+
+            .border-png {
+                background-color: aliceblue;
+                padding: 1px;
+            }
+
+            img {
+                width: 30px;
+                height: 30px;
+                object-fit: cover;
+                border-radius: 50%;
+                transition: all 0.3s ease;
+                cursor: pointer;
+                margin-left: 10px;
+
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+          
+        }
+    }
+}
