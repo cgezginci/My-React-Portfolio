@@ -8,8 +8,18 @@ function Navbar() {
       <div className="wrapper">
         <span>Portfolio</span>
         <div className="social">
-          <a href="#">
+          <a
+            href="https://github.com/cgezginci"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img className="border-png" src="/github.png" alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/cantuggezginci/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/linkedin.png" alt="" />
           </a>
         </div>
